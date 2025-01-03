@@ -16,18 +16,816 @@
     </header>
 
     <section id="menu">
-        <h2>Menu</h2>
-        <div class="menu-item">
-            <h3>Çay</h3>
-            <p class="price">3.00 azn</p>
+        <style>
+            .menu-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                text-align: center;
+            }
+            .menu-item {
+                margin-bottom: 15px;
+            }
+            .menu-item h3 {
+                margin: 5px 0;
+            }
+            .price {
+                color: green;
+            }
+            .header {
+                grid-column: span 2;
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+        </style>
+        
+        <div class="menu-container">
+            <div class="header">Fast Food</div>
+            <div class="menu-item">
+                <h3>Şaurma + Fri</h3>
+                <p class="price">6.00 azn</p>
+                <h3>Nuggets + Fri</h3>
+                <p class="price">7.00 azn</p>
+                <h3>Pizza (qarışıq)</h3>
+                <p class="price">12.00 azn</p>
+                <h3>Pizza (toyuq,göbələk)</h3>
+                <p class="price">11.00 azn</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza (vegetarian)</h3>
+                <p class="price">11.00 azn</p>
+                <h3>Pizza (pepperoni)</h3>
+                <p class="price">12.00 azn</p>
+                <h3>Pizza (Mexicano acılı)</h3>
+                <p class="price">13.00 azn</p>
+                <h3>Pizza (BBQ)</h3>
+                <p class="price">13.00 azn</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza (Marqaritta)</h3>
+                <p class="price">11.00 azn</p>
+                <h3>Sucuklu tost + Fri</h3>
+                <p class="price">5.00 azn</p>
+                <h3>Pendirli tost + Fri</h3>
+                <p class="price">4.50 azn</p>
+                <h3>Sezar roll + Fri</h3>
+                <p class="price">7.00 azn</p>
+            </div>
+            <div class="menu-item">
+                <h3>Toyuq roll + Fri</h3>
+                <p class="price">6.00 azn</p>
+                <h3>Club sendviç + Fri</h3>
+                <p class="price">7.00 azn</p>
+                <h3>Toyuq sendviç + Fri</h3>
+                <p class="price">6.50 azn</p>
+            </div>
+        </div>
+        
         </div>
         <div class="menu-item">
-            <h3>Kola</h3>
-            <p class="price">2.00 azn</p>
+            <style>
+                .menu-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .menu-item {
+                    margin-bottom: 15px;
+                }
+                .menu-item h3 {
+                    margin: 5px 0;
+                }
+                .price {
+                    color: green;
+                }
+                .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <div class="menu-container">
+                <div class="header">Pivə qəlyanaltıları</div>
+                
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Krevetka (çay/dəniz)</h3>
+                    <p class="price">8.00 / 8.00 azn</p>
+                    <h3>Şamayka 1 əd.</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>Farel</h3>
+                    <p class="price">8.00 azn</p>
+                    <h3>Zalom</h3>
+                    <p class="price">6.00 azn</p>
+                    <h3>Kütüm</h3>
+                    <p class="price">8.00 azn</p>
+                    <h3>Kilkə</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Pendir didilmiş/qızartma</h3>
+                    <p class="price">2.50 / 3.50 azn</p>
+                    <h3>Suxarik</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Çipsi</h3>
+                    <p class="price">3.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Sosiska assorti (kiçik/böyük)</h3>
+                    <p class="price">10.00 / 20.00 azn</p>
+                    <h3>Kartof fri</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Sosiska südlü</h3>
+                    <p class="price">5.00 azn</p>
+                    <h3>Sardelka</h3>
+                    <p class="price">5.00 azn</p>
+                    <h3>Oxotnik</h3>
+                    <p class="price">4.50 azn</p>
+                    <h3>Nuggets + Fri</h3>
+                    <p class="price">6.00 azn</p>
+                    <h3>Çöp sosis</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>Boğaz</h3>
+                    <p class="price">3.50 azn</p>
+                    <h3>Pətənə</h3>
+                    <p class="price">3.50 azn</p>
+                    <h3>Düşbərə</h3>
+                    <p class="price">3.50 azn</p>
+                </div>
+            
+                <!-- Third column -->
+                <div class="menu-item">
+                    <h3>Gürcü xəngəli (sadə/qızartma)</h3>
+                    <p class="price">1.00 / 1.50 azn</p>
+                    <h3>Noxud (sadə/qızartma)</h3>
+                    <p class="price">2.00 azn</p>
+                    <h3>Bildirçin</h3>
+                    <p class="price">3.50 azn</p>
+                    <h3>Qrenki (sadə/pendirli)</h3>
+                    <p class="price">3.00 / 4.00 azn</p>
+                    <h3>Meyvə qarışıq</h3>
+                    <p class="price">10.00 azn</p>
+                </div>
+            </div>
+            
         </div>
         <div class="menu-item">
-            <h3>Dönər</h3>
-            <p class="price">4.00 azn</p>
+            <style>
+                .menu-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .menu-item {
+                    margin-bottom: 15px;
+                }
+                .menu-item h3 {
+                    margin: 5px 0;
+                }
+                .price {
+                    color: green;
+                }
+                .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <div class="menu-container">
+                <div class="header">Pivələr</div>
+                
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Xırdalan (filterli)</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>NZS (filterli)</h3>
+                    <p class="price">1.50 azn</p>
+                    <h3>Salyan (filterli)</h3>
+                    <p class="price">1.50 azn</p>
+                    <h3>Xırdalan (şüşə)</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Efes (şüşə)</h3>
+                    <p class="price">5.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Efes (zero)</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Baltika (zero)</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Xırdalan (zero)</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>NZS (zero)</h3>
+                    <p class="price">4.00 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                .menu-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .menu-item {
+                    margin-bottom: 15px;
+                }
+                .menu-item h3 {
+                    margin: 5px 0;
+                }
+                .price {
+                    color: green;
+                }
+                .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <div class="menu-container">
+                <div class="header">Spirtli içkilər</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h2>Viski</h2>
+                    <h3>Jack Daniels</h3>
+                    <p class="price">7.00 azn</p>
+                    <h3>Chivas</h3>
+                    <p class="price">7.00 azn</p>
+                    <h3>Captain Grant</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Jägermeister</h3>
+                    <p class="price">5.00 azn</p>
+                    <h3>Rio</h3>
+                    <p class="price">5.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h2>Şərab</h2>
+                    <h3>İvanovka</h3>
+                    <p class="price">5.00 / 15.00 azn</p>
+                    <h3>Rubai</h3>
+                    <p class="price">5.50 / 20.00 azn</p>
+                    <h3>Chabiant</h3>
+                    <p class="price">8.00 / 30.00 azn</p>
+                </div>
+            
+                <!-- Third column -->
+                <div class="menu-item">
+                    <h2>Şampan</h2>
+                    <h3>Abran (ağ/qara)</h3>
+                    <p class="price">30.00 azn</p>
+                    <h3>Bohdana</h3>
+                    <p class="price">15.00 azn</p>
+                </div>
+            
+                <!-- Fourth column -->
+                <div class="menu-item">
+                    <h2>Araq</h2>
+                    <h3>Lekar</h3>
+                    <p class="price">25.00 azn</p>
+                    <h3>Çetkaya (38/40%)</h3>
+                    <p class="price">20.00 azn</p>
+                    <h3>Yakor</h3>
+                    <p class="price">20.00 azn</p>
+                    <h3>Meineken</h3>
+                    <p class="price">5.00 azn</p>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="menu-item">
+            <style>
+                .menu-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .menu-item {
+                    margin-bottom: 15px;
+                }
+                .menu-item h3 {
+                    margin: 5px 0;
+                }
+                .price {
+                    color: green;
+                }
+                .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <div class="menu-container">
+                <div class="header">Sərin içkilər</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Pepsi,Kola,Fanta,Sprite (butulka/banka)</h3>
+                    <p class="price">2.00 / 3.00 azn</p>
+                    <h3>Sirab (qazlı/qazsız)</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Borjomi</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Fuse tea</h3>
+                    <p class="price">2.50 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Redbull</h3>
+                    <p class="price">5.00 azn</p>
+                    <h3>Hell</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Ayran (qrafin/bakal)</h3>
+                    <p class="price">3.00 / 1.00 azn</p>
+                    <h3>Akroşka (qrafin/bakal)</h3>
+                    <p class="price">3.50 / 1.50 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                .menu-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .menu-item {
+                    margin-bottom: 15px;
+                }
+                .menu-item h3 {
+                    margin: 5px 0;
+                }
+                .price {
+                    color: green;
+                }
+                .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <div class="menu-container">
+                <div class="header">İsti içkilər</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Qara çay (fincan/çaynik)</h3>
+                    <p class="price">1.00 / 3.00 azn</p>
+                    <h3>Yaşıl çay (fincan/çaynik)</h3>
+                    <p class="price">1.00 / 3.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Kapuçino</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>Americano</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>İsti şokolad</h3>
+                    <p class="price">3.00 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                .menu-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .menu-item {
+                    margin-bottom: 15px;
+                }
+                .menu-item h3 {
+                    margin: 5px 0;
+                }
+                .price {
+                    color: green;
+                }
+                .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <div class="menu-container">
+                <div class="header">Kokteyllər</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Moxito(alkoqolsuz)</h3>
+                    <p class="price">6.00 azn</p>
+                    <h3>Moxito(alkoqollu)</h3>
+                    <p class="price">8.00 azn</p>
+                    <h3>Long İsland</h3>
+                    <p class="price">14.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Tequila(shot set - 6 əd.)</h3>
+                    <p class="price">28.00 azn</p>
+                    <h3>Vodka(shot set - 6 əd.)</h3>
+                    <p class="price">13.00 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                .menu-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .menu-item {
+                    margin-bottom: 15px;
+                }
+                .menu-item h3 {
+                    margin: 5px 0;
+                }
+                .price {
+                    color: green;
+                }
+                .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <div class="menu-container">
+                <div class="header">Dessertlər</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Dondurma</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Mürəbbə</h3>
+                    <p class="price">5.00 azn</p>
+                    <h3>Şokolad</h3>
+                    <p class="price">4.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Türk paxlavası</h3>
+                    <p class="price">4.50 azn</p>
+                    <h3>Milli paxlava</h3>
+                    <p class="price">4.00 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                /* Private styles for Soyuq qəlyanaltılar section */
+                #soyuq-qelyanaltilar-menu {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+            
+                #soyuq-qelyanaltilar-menu .menu-item {
+                    margin-bottom: 15px;
+                }
+            
+                #soyuq-qelyanaltilar-menu .menu-item h3 {
+                    margin: 5px 0;
+                }
+            
+                #soyuq-qelyanaltilar-menu .header {
+                    grid-column: span 3;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <!-- Menu Section for Soyuq qəlyanaltılar -->
+            <div id="soyuq-qelyanaltilar-menu">
+                <div class="header">Soyuq qəlyanaltılar</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Tərəvəz dəstəsi</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Pendir assorti</h3>
+                    <p class="price">6.00 azn</p>
+                    <h3>Turşu assorti</h3>
+                    <p class="price">6.00 azn</p>
+                    <h3>Yaşıl alma (nanəli/limonlu)</h3>
+                    <p class="price">3.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Çoban salatı(pendirli)</h3>
+                    <p class="price">4.00 / 5.00 azn</p>
+                    <h3>Manqal salatı</h3>
+                    <p class="price">3.50 azn</p>
+                    <h3>Paytaxt salatı</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Mimoza salatı</h3>
+                    <p class="price">5.00 azn</p>
+                </div>
+            
+                <!-- Third column -->
+                <div class="menu-item">
+                    <h3>Toyuq salatı</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Sezar salatı(toyuq/krevetka)</h3>
+                    <p class="price">10.00 / 12.00 azn</p>
+                    <h3>Ağ pendir</h3>
+                    <p class="price">2.00 azn</p>
+                    <h3>Zeytun (yaşıl/qara)</h3>
+                    <p class="price">3.00 azn</p>
+                </div>
+            
+                <!-- Fourth column -->
+                <div class="menu-item">
+                    <h3>Qatıq</h3>
+                    <p class="price">1.00 azn</p>
+                    <h3>Dovğa (bakalda)</h3>
+                    <p class="price">2.00 azn</p>
+                    <h3>Süzmə</h3>
+                    <p class="price">2.00 azn</p>
+                    <h3>Acika</h3>
+                    <p class="price">2.00 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                /* Private styles for Şorbalar section */
+                #sorbalar-menu {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+            
+                #sorbalar-menu .menu-item {
+                    margin-bottom: 15px;
+                }
+            
+                #sorbalar-menu .menu-item h3 {
+                    margin: 5px 0;
+                }
+            
+                #sorbalar-menu .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <!-- Menu Section for Şorbalar -->
+            <div id="sorbalar-menu">
+                <div class="header">Şorbalar</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Toyuq</h3>
+                    <p class="price">3.50 azn</p>
+                    <h3>Mərci</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>Tomat</h3>
+                    <p class="price">3.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Göbələk</h3>
+                    <p class="price">3.50 azn</p>
+                    <h3>Dovğa</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>Düşbərə</h3>
+                    <p class="price">3.50 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                /* Private styles for Qarnirlər section */
+                #qarnir-menu {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    text-align: center;
+                }
+            
+                #qarnir-menu .menu-item {
+                    margin-bottom: 15px;
+                }
+            
+                #qarnir-menu .menu-item h3 {
+                    margin: 5px 0;
+                }
+            
+                #qarnir-menu .header {
+                    grid-column: span 2;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            
+            <!-- Menu Section for Qarnirlər -->
+            <div id="qarnir-menu">
+                <div class="header">Qarnirlər</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Kartof (ev sayağı/soyutma)</h3>
+                    <p class="price">3.00 / 3.00 azn</p>
+                    <h3>Düyü</h3>
+                    <p class="price">2.50 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Qreçka</h3>
+                    <p class="price">2.50 azn</p>
+                    <h3>Pürə</h3>
+                    <p class="price">2.50 azn</p>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="menu-item">
+            <style>
+                /* Private styles for İsti yeməklər section */
+                #isti-yemekler-menu {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+                    gap: 20px;
+                    text-align: center;
+                }
+            
+                #isti-yemekler-menu .menu-item {
+                    margin-bottom: 15px;
+                }
+            
+                #isti-yemekler-menu .menu-item h3 {
+                    margin: 5px 0;
+                }
+            
+                #isti-yemekler-menu .header {
+                    grid-column: span 3;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+            </style>
+            
+            <!-- Menu Section for İsti Yeməklər -->
+            <div id="isti-yemekler-menu">
+                <div class="header">İsti yeməklər</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Can əti qaymaqlı</h3>
+                    <p class="price">13.00 azn</p>
+                    <h3>Çolpa çığırtma</h3>
+                    <p class="price">12.00 azn</p>
+                    <h3>Çolpa soyutma (Kənd/Bütöv)</h3>
+                    <p class="price">13.00 / 18.00 azn</p>
+                    <h3>Tabaka / Kənd</h3>
+                    <p class="price">13.00 / 15.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Straqonov (toyuq/ət)</h3>
+                    <p class="price">8.00 / 12.00 azn</p>
+                    <h3>Langet (toyuq/ət)</h3>
+                    <p class="price">5.50 / 8.00 azn</p>
+                    <h3>Kotlet (toyuq)</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Tuşonka / kartof ilə</h3>
+                    <p class="price">8.00 / 10.00 azn</p>
+                </div>
+            
+                <!-- Third column -->
+                <div class="menu-item">
+                    <h3>Cız-bız</h3>
+                    <p class="price">7.00 azn</p>
+                    <h3>Göbələk (holland pendiri ilə)</h3>
+                    <p class="price">4.50 azn</p>
+                    <h3>Qarışıq sac</h3>
+                    <p class="price">27.00 azn</p>
+                    <h3>Can əti sac</h3>
+                    <p class="price">23.00 azn</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu-item">
+            <style>
+                /* Private styles for Səhər yeməyi section */
+                #sahər-yeməyi-menu {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+                    gap: 20px;
+                    text-align: center;
+                }
+            
+                #sahər-yeməyi-menu .menu-item {
+                    margin-bottom: 15px;
+                }
+            
+                #sahər-yeməyi-menu .menu-item h3 {
+                    margin: 5px 0;
+                }
+            
+                #sahər-yeməyi-menu .header {
+                    grid-column: span 3;
+                    font-weight: bold;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+            </style>
+            
+            <!-- Menu Section for Səhər Yeməyi -->
+            <div id="sahər-yeməyi-menu">
+                <div class="header">Səhər yeməyi</div>
+            
+                <!-- First column -->
+                <div class="menu-item">
+                    <h3>Qlazok</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>Pomidor yumurta</h3>
+                    <p class="price">4.00 azn</p>
+                    <h3>Sosiska yumurta</h3>
+                    <p class="price">5.00 azn</p>
+                </div>
+            
+                <!-- Second column -->
+                <div class="menu-item">
+                    <h3>Sucuklu yumurta</h3>
+                    <p class="price">5.00 azn</p>
+                    <h3>Ağ pendir</h3>
+                    <p class="price">2.00 azn</p>
+                    <h3>Bal/Qaymaq/Yağ</h3>
+                    <p class="price">2.00 azn</p>
+                </div>
+            
+                <!-- Third column -->
+                <div class="menu-item">
+                    <h3>Sosiska(qaynadılmış)</h3>
+                    <p class="price">3.00 azn</p>
+                    <h3>Yumurta(qaynadılmış)</h3>
+                    <p class="price">2.00 azn</p>
+                </div>
+            </div>
+            
+            <h2 style="color: black;">Setlər</h2>
+<h3>2 nəfərlik set 
+    (yağ,bal,qaymaq,ağ pendir,xiyar, qaynadılmış sosis və yumurta.
+    Qlazok və ya pomidor yumurta və ya sucuklu yumurta və ya sosisli yumurta)
+</h3>
+<p class="price">25.00 azn</p>
+
+
+
+
         </div>
     </section>
 
