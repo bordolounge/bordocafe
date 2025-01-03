@@ -4,14 +4,14 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #ffffff;
-    background: #e9e7e7f3;
+    color: #f5f5f5;
+    background: #979797f3;
 }
 
 /* Header Styling */
 header {
-    background: linear-gradient(to right, #f0eaea, #fffdfd);
-    color: #ee1f1f;
+    background: linear-gradient(to right, #494949, #1b1b1b);
+    color: #ff2727;
     text-align: center;
     padding: 60px 20px;
 }
@@ -45,7 +45,7 @@ header p {
 section {
     padding: 40px 20px;
     text-align: center;
-    background: rgb(218, 9, 9);
+    background: rgb(32, 31, 31);
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -65,9 +65,9 @@ section p {
 #menu .menu-item {
     margin: 20px 0;
     padding: 10px;
-    border: 1px solid #c7c425;
+    border: 1px solid #383737;
     border-radius: 5px;
-    background: #dd0606f5;
+    background: #141414f5;
 }
 
 #menu .menu-item h3 {
@@ -77,12 +77,12 @@ section p {
 
 #menu .price {
     font-weight: bold;
-    color: #ecd447;
+    color: #ec1f1f;
 }
 
 /* Footer Styling */
 footer {
-    background: #eb0c0c;
+    background: #2c2b2b;
     color: white;
     text-align: center;
     padding: 20px;
